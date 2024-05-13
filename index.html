@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="circularLinkedList.js" ></script>
+        <script src="script.js" ></script>
+        <link rel="stylesheet" href="index.css"></script>
+    </head>
+    <body onload="fillFlames()">
+        <center>
+            <div id="flames"></div>
+            <form id="inputForm">
+                <label for="personName1">Pairing</label>
+                <input id="personName1" type="text" name="personName1" placeholder="person 1" />
+                <label for="personName1">With</label>
+                <input id="personName2" type="text" name="personName2" placeholder="person 2" />
+                <input type="button" id="btnPerformFlames" onClick="performFlames()" value="Check!">
+            </form> 
+            <div id="result">
+            </div>
+        </center>
+        <p>
+            Disclaimer: This is just a pass time and does not predict relationships in any way.<br />
+            <a style="color:lightgreen;" href="https://github.com/swims-hjkl/flames-static-website" target="_blank">Code</a>
+        </p>
+    </body>
+</html>
